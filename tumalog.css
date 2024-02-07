@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+body {
+    background-image: url(nbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 1250px;
+    height: 500px;
+    background-color: whitesmoke;
+    border: solid 1px transparent;
+    border-radius: 10px;
+}
+img {
+    border: solid 1px transparent;
+    border-radius: 10px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+h2 {
+    position: relative;
+    top: -400px;
+    left: 600px;
+    font-size: 30px;
+}
+h5 {
+    position: relative;
+    top: -300px;
+    left: 450px;
+    font-size: 15px;
+}

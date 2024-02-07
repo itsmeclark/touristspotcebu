@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(backG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+  border: solid 1px transparent;
+  border-radius: 10px;
+  
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.displayMid {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.container {
+  margin: 10px;
+  border: solid 1px white;
+  border-radius: 10px;
+  background-color: ghostwhite;
+  width: 700px;
+  height: 150px;
+}
+
+h3 {
+  position: relative;
+  top: -120px;
+  left: 175px;
+}
+h1 {
+  text-align: center;
+  color: ghostwhite;
+}
+
+.description-1 {
+  position: relative;
+  top: -120px;
+  left: 175px;
+  font-size: 17px;
+}
+.container:hover {
+  cursor: pointer;
+  transform: scaleX(1.1);
+  transition:  50ms ease-in-out;
+}
